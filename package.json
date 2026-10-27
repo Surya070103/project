@@ -1,0 +1,11 @@
+{
+  "name": "resume-site-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix resume-site/client\" \"npm run dev --prefix resume-site/server\"",
+    "dev:server": "npm run dev --prefix resume-site/server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
