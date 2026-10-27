@@ -1,5 +1,33 @@
-﻿node_modules/
-dist/
+﻿# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
+**/.env
+**/.env.*
+
+# Build output
+dist/
+build/
+**/dist/
+**/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+
